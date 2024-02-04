@@ -38,6 +38,7 @@ return {
     -- ["<esc>"] = false,
   },
   v = {
+    -- Moving stuff in visual mode with < > doesnt deselect after operation
     ["<"] = { "<gv" },
     [">"] = { ">gv" },
   },
